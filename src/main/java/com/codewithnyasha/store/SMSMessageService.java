@@ -8,6 +8,6 @@ public class SMSMessageService implements NotificationService {
     public void processNotification()
     {
 
-        System.out.println("This is  the SMS Message Service yes");
+        System.out.println("This is  the SMS Message Service");
     }
 }
