@@ -7,6 +7,6 @@ public class PaypalPaymentService implements PaymentService {
     @Override
     public void processPayment(double amount) {
         System.out.println("PayPal Payment");
-        System.out.println("Payment with amount " + amount + " processed");
+        System.out.println("Payment with this amount " + amount + " processed");
     }
 }
